@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "7a1659a4-7381-44bd-a5aa-bd607f99a7c6",
+		"name": "Yusha",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39110634"
+	},
+	"item": [
+		{
+			"name": "Single Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://yusha.com.bd/white-lace-princess-dress-with-red-bow-baby-toddler-summer-party-outfit-yp250810137",
+					"protocol": "https",
+					"host": [
+						"yusha",
+						"com",
+						"bd"
+					],
+					"path": [
+						"white-lace-princess-dress-with-red-bow-baby-toddler-summer-party-outfit-yp250810137"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Latest Products",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://yusha.com.bd/clothes",
+					"protocol": "https",
+					"host": [
+						"yusha",
+						"com",
+						"bd"
+					],
+					"path": [
+						"clothes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"phone_number\": \"01786492383\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://yusha.com.bd/login",
+					"protocol": "https",
+					"host": [
+						"yusha",
+						"com",
+						"bd"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Profile",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Deal List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://app.yusha.com.bd/apis/dealLists",
+					"protocol": "https",
+					"host": [
+						"app",
+						"yusha",
+						"com",
+						"bd"
+					],
+					"path": [
+						"apis",
+						"dealLists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cart List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://app.yusha.com.bd/apis/getCartList",
+					"protocol": "https",
+					"host": [
+						"app",
+						"yusha",
+						"com",
+						"bd"
+					],
+					"path": [
+						"apis",
+						"getCartList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WishList item",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Page List",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
