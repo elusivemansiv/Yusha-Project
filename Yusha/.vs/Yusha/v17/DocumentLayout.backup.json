@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\Downloads\\Yusha\\Yusha\\",
+  "WorkspaceRootPath": "D:\\New folder\\Yusha\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D50F020D-3C58-4597-81F7-5648EB21B6CC}|Yusha\\Yusha.csproj|c:\\users\\hp\\downloads\\yusha\\yusha\\yusha\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D50F020D-3C58-4597-81F7-5648EB21B6CC}|Yusha\\Yusha.csproj|solutionrelative:yusha\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D50F020D-3C58-4597-81F7-5648EB21B6CC}|Yusha\\Yusha.csproj|d:\\new folder\\yusha\\yusha\\tests\\wishlisttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50F020D-3C58-4597-81F7-5648EB21B6CC}|Yusha\\Yusha.csproj|solutionrelative:yusha\\tests\\wishlisttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50F020D-3C58-4597-81F7-5648EB21B6CC}|Yusha\\Yusha.csproj|d:\\new folder\\yusha\\yusha\\tests\\searchtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50F020D-3C58-4597-81F7-5648EB21B6CC}|Yusha\\Yusha.csproj|solutionrelative:yusha\\tests\\searchtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50F020D-3C58-4597-81F7-5648EB21B6CC}|Yusha\\Yusha.csproj|d:\\new folder\\yusha\\yusha\\tests\\logintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50F020D-3C58-4597-81F7-5648EB21B6CC}|Yusha\\Yusha.csproj|solutionrelative:yusha\\tests\\logintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50F020D-3C58-4597-81F7-5648EB21B6CC}|Yusha\\Yusha.csproj|d:\\new folder\\yusha\\yusha\\tests\\basetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50F020D-3C58-4597-81F7-5648EB21B6CC}|Yusha\\Yusha.csproj|solutionrelative:yusha\\tests\\basetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50F020D-3C58-4597-81F7-5648EB21B6CC}|Yusha\\Yusha.csproj|d:\\new folder\\yusha\\yusha\\tests\\addtocarttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50F020D-3C58-4597-81F7-5648EB21B6CC}|Yusha\\Yusha.csproj|solutionrelative:yusha\\tests\\addtocarttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,15 +58,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Yusha\\Yusha\\Yusha\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "Yusha\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\HP\\Downloads\\Yusha\\Yusha\\Yusha\\UnitTest1.cs",
-              "RelativeToolTip": "Yusha\\UnitTest1.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCoAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AddToCartTest.cs",
+              "DocumentMoniker": "D:\\New folder\\Yusha\\Yusha\\Tests\\AddToCartTest.cs",
+              "RelativeDocumentMoniker": "Yusha\\Tests\\AddToCartTest.cs",
+              "ToolTip": "D:\\New folder\\Yusha\\Yusha\\Tests\\AddToCartTest.cs",
+              "RelativeToolTip": "Yusha\\Tests\\AddToCartTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAACBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T03:59:38.322Z",
+              "WhenOpened": "2025-09-13T11:41:40.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WishListTest.cs",
+              "DocumentMoniker": "D:\\New folder\\Yusha\\Yusha\\Tests\\WishListTest.cs",
+              "RelativeDocumentMoniker": "Yusha\\Tests\\WishListTest.cs",
+              "ToolTip": "D:\\New folder\\Yusha\\Yusha\\Tests\\WishListTest.cs",
+              "RelativeToolTip": "Yusha\\Tests\\WishListTest.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T11:41:05.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchTest.cs",
+              "DocumentMoniker": "D:\\New folder\\Yusha\\Yusha\\Tests\\SearchTest.cs",
+              "RelativeDocumentMoniker": "Yusha\\Tests\\SearchTest.cs",
+              "ToolTip": "D:\\New folder\\Yusha\\Yusha\\Tests\\SearchTest.cs",
+              "RelativeToolTip": "Yusha\\Tests\\SearchTest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T06:56:50.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseTest.cs",
+              "DocumentMoniker": "D:\\New folder\\Yusha\\Yusha\\Tests\\BaseTest.cs",
+              "RelativeDocumentMoniker": "Yusha\\Tests\\BaseTest.cs",
+              "ToolTip": "D:\\New folder\\Yusha\\Yusha\\Tests\\BaseTest.cs",
+              "RelativeToolTip": "Yusha\\Tests\\BaseTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T06:34:30.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginTest.cs",
+              "DocumentMoniker": "D:\\New folder\\Yusha\\Yusha\\Tests\\LoginTest.cs",
+              "RelativeDocumentMoniker": "Yusha\\Tests\\LoginTest.cs",
+              "ToolTip": "D:\\New folder\\Yusha\\Yusha\\Tests\\LoginTest.cs",
+              "RelativeToolTip": "Yusha\\Tests\\LoginTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T06:33:03.633Z",
               "EditorCaption": ""
             }
           ]
