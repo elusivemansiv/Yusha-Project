@@ -12,14 +12,17 @@ namespace Yusha.Selenium
         {
             
             var searchbar = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[@id=\"__yusha\"]/header/div[2]/div/div/div[2]/div/div/div[1]/input")));
-            searchbar.SendKeys("Wrist");
+            searchbar.SendKeys("anti");
 
             System.Threading.Thread.Sleep(2000);
 
-            //var searchitem = driver.FindElement(By.XPath("span[text()='Wrist Pendant Plush Toys']"));
-            //searchitem.Click();
+            var searchitem = wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath("//div[contains(@class,'header-area__search-suggestion-area')]//ul[@class='suggestions']/li[1]/a")));
+            searchitem.Click();
 
+            wait.Until(d => d.Url.Contains("anti") || d.Url.Contains("yp"));
+            Thread.Sleep(3000);
 
+            
         }
     }
 }

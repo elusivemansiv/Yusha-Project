@@ -15,8 +15,8 @@ namespace Yusha
         [SetUp]
         public void Setup()
         {
-            var chromeOptions = new ChromeOptions();
-            driver = new ChromeDriver(chromeOptions);  
+            
+            driver = new ChromeDriver();  
             driver.Manage().Window.Maximize();
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
             driver.Navigate().GoToUrl(url);
@@ -25,10 +25,7 @@ namespace Yusha
         [TearDown]
         public void TearDown()
         {
-            if (driver != null)
-            {
-                driver.Quit();
-            }
+            driver.Quit();
         }
     }
 }
