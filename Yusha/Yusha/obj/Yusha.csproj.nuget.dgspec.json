@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder\\Yusha\\Yusha\\Yusha.csproj": {}
+    "C:\\Users\\DELL\\OneDrive\\Desktop\\Mansib\\Yusha-Project\\Yusha\\Yusha\\Yusha.csproj": {}
   },
   "projects": {
-    "D:\\New folder\\Yusha\\Yusha\\Yusha.csproj": {
+    "C:\\Users\\DELL\\OneDrive\\Desktop\\Mansib\\Yusha-Project\\Yusha\\Yusha\\Yusha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\Yusha\\Yusha\\Yusha.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mansib\\Yusha-Project\\Yusha\\Yusha\\Yusha.csproj",
         "projectName": "Yusha",
-        "projectPath": "D:\\New folder\\Yusha\\Yusha\\Yusha.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\Yusha\\Yusha\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mansib\\Yusha-Project\\Yusha\\Yusha\\Yusha.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mansib\\Yusha-Project\\Yusha\\Yusha\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,6 +61,10 @@
             "NUnit": {
               "target": "Package",
               "version": "[3.14.0, )"
+            },
+            "NUnit.Allure": {
+              "target": "Package",
+              "version": "[1.2.1.1, )"
             },
             "NUnit.Analyzers": {
               "target": "Package",
