@@ -1,17 +1,22 @@
-﻿using NUnit.Framework;
+﻿using NUnit.Allure.Core;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 
 namespace Yusha.Selenium
 {
+    [TestFixture]
+    [Parallelizable(ParallelScope.Fixtures)]
+    [AllureNUnit]
     internal class SearchTest : BaseTest
     {
+
         [Test]
         public void SearchShoe()
         {
             
-            var searchbar = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[@id=\"__yusha\"]/header/div[2]/div/div/div[2]/div/div/div[1]/input")));
+            var searchbar = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//div[@class='header-bottom-search-area']//input[@placeholder='What you are looking for?']")));
             searchbar.SendKeys("anti");
 
             System.Threading.Thread.Sleep(2000);
@@ -29,7 +34,7 @@ namespace Yusha.Selenium
         public void SearchToy()
         {
 
-            var searchbar = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[@id=\"__yusha\"]/header/div[2]/div/div/div[2]/div/div/div[1]/input")));
+            var searchbar = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//div[@class='header-bottom-search-area']//input[@placeholder='What you are looking for?']")));
             searchbar.SendKeys("Wrist");
 
             System.Threading.Thread.Sleep(2000);
@@ -48,7 +53,7 @@ namespace Yusha.Selenium
         public void SearchBag()
         {
 
-            var searchbar = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[@id=\"__yusha\"]/header/div[2]/div/div/div[2]/div/div/div[1]/input")));
+            var searchbar = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//div[@class='header-bottom-search-area']//input[@placeholder='What you are looking for?']")));
             searchbar.SendKeys("Bag");
 
             System.Threading.Thread.Sleep(2000);

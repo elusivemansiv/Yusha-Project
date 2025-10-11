@@ -1,0 +1,64 @@
+{
+  "uuid": "9df592d4-4c0b-4f68-9192-6e4eab75df9c-tr-0-1004",
+  "historyId": "Yusha.Selenium.LoginTest.InValidPhoneNumber",
+  "fullName": "Yusha.Selenium.LoginTest.InValidPhoneNumber",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5J5HCF1"
+    },
+    {
+      "name": "package",
+      "value": "Yusha.Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "InValidPhoneNumber"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTest"
+    }
+  ],
+  "links": [],
+  "name": "InValidPhoneNumber",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "InValidPhoneNumber"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "InValidPhoneNumber",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "afe318a6b9ad4ade9e4118aa4b936514-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1760158644516,
+      "stop": 1760158662330
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1760158644515,
+  "stop": 1760158662335
+}

@@ -1,0 +1,64 @@
+{
+  "uuid": "a25eb541-ffbc-4520-9787-1eae7d605829-tr-0-1008",
+  "historyId": "Yusha.Selenium.SearchTest.SearchBag",
+  "fullName": "Yusha.Selenium.SearchTest.SearchBag",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5J5HCF1"
+    },
+    {
+      "name": "package",
+      "value": "Yusha.Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "SearchBag"
+    },
+    {
+      "name": "testClass",
+      "value": "SearchTest"
+    }
+  ],
+  "links": [],
+  "name": "SearchBag",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "SearchBag"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "SearchBag",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d9fb844b366d4121abb8827165a8aaa0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1760162724750,
+      "stop": 1760162745679
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1760162724749,
+  "stop": 1760162745681
+}
