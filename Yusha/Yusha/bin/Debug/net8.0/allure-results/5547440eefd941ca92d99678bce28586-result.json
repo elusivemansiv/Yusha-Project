@@ -1,0 +1,82 @@
+{
+  "uuid": "1fdf97b6-7676-469e-87d9-e0f97f354c0d-tr-0-1002",
+  "historyId": "Yusha.Selenium.AddToCartTest.AddtocartInvalidtest",
+  "fullName": "Yusha.Selenium.AddToCartTest.AddtocartInvalidtest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5J5HCF1"
+    },
+    {
+      "name": "package",
+      "value": "Yusha.Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddtocartInvalidtest"
+    },
+    {
+      "name": "testClass",
+      "value": "AddToCartTest"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "suite",
+      "value": "Browser tests"
+    }
+  ],
+  "links": [
+    {
+      "name": "Website",
+      "url": "https://yusha.com.bd/",
+      "type": "link"
+    }
+  ],
+  "name": "AddtocartInvalidtest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"text\">...</span> is not clickable at point (1245, 790). Other element would receive the click: <div role=\"dialog\" aria-modal=\"true\" class=\"fade login-modal modal show\" tabindex=\"-1\" aria-labelledby=\"contained-modal-title-vcenter\" style=\"display: block; padding-right: 10px;\">...</div>\n  (Session info: chrome=141.0.7390.66)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Yusha.Selenium.AddToCartTest.AddtocartInvalidtest() in C:\\Users\\DELL\\OneDrive\\Desktop\\Mansib\\Yusha-Project\\Yusha\\Yusha\\Tests\\AddToCartTest.cs:line 91\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "As user I want to Add to Cart a product to the wesbsite with Invalid Login Data",
+  "steps": [
+    {
+      "name": "AddtocartInvalidtest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"text\">...</span> is not clickable at point (1245, 790). Other element would receive the click: <div role=\"dialog\" aria-modal=\"true\" class=\"fade login-modal modal show\" tabindex=\"-1\" aria-labelledby=\"contained-modal-title-vcenter\" style=\"display: block; padding-right: 10px;\">...</div>\n  (Session info: chrome=141.0.7390.66)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Yusha.Selenium.AddToCartTest.AddtocartInvalidtest() in C:\\Users\\DELL\\OneDrive\\Desktop\\Mansib\\Yusha-Project\\Yusha\\Yusha\\Tests\\AddToCartTest.cs:line 91\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6f02d788ef1b463fab94c811258a051d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1760549718531,
+      "stop": 1760549813412
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1760549718531,
+  "stop": 1760549813419
+}

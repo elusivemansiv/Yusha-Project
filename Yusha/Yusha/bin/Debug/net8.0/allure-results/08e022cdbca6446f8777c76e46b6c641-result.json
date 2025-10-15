@@ -1,0 +1,79 @@
+{
+  "uuid": "06a61c47-1022-4c09-a2e4-30e0a24913e6-tr-0-1010",
+  "historyId": "Yusha.Selenium.SearchTest.SearchToyTest",
+  "fullName": "Yusha.Selenium.SearchTest.SearchToyTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5J5HCF1"
+    },
+    {
+      "name": "package",
+      "value": "Yusha.Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "SearchToyTest"
+    },
+    {
+      "name": "testClass",
+      "value": "SearchTest"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "suite",
+      "value": "Browser tests"
+    }
+  ],
+  "links": [
+    {
+      "name": "Website",
+      "url": "https://yusha.com.bd/",
+      "type": "link"
+    }
+  ],
+  "name": "SearchToyTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "SearchToyTest"
+  },
+  "stage": "finished",
+  "description": "As user I want to Search Toy product to the wesbsite with valid Data",
+  "steps": [
+    {
+      "name": "SearchToyTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "cbcdfcb66c924eeaaa24761d33037dc4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1760549225399,
+      "stop": 1760549399469
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1760549225399,
+  "stop": 1760549399469
+}

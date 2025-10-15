@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Yusha")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69231772ea66d9e1de74ed0de071fb4d366e8934")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf48d73a9f77e1accb67654727bd5ccc5a55007d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Yusha")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Yusha")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,44 @@
+{
+  "uuid": "df9e5d2a-f446-4ffd-b9cb-c0d7b15d36ec-tc-0-1008",
+  "name": "Yusha.Selenium.SearchTest.SearchBagTest",
+  "children": [
+    "834511fd-3f9d-43a0-ae56-06e99c097496-tr-0-1011"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1760549445944,
+      "stop": 1760549445944
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1760549445946,
+      "stop": 1760549445946
+    }
+  ],
+  "links": [],
+  "start": 1760549415925,
+  "stop": 1760549445998
+}

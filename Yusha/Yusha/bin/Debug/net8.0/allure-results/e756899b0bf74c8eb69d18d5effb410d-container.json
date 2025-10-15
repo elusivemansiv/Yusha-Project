@@ -1,0 +1,44 @@
+{
+  "uuid": "f640b279-4857-4d9e-9402-7f82d10a8c8d-tc-0-1008",
+  "name": "Yusha.Selenium.SearchTest.SearchShoeTest",
+  "children": [
+    "151e7f01-e23f-4a6d-a317-5e832317714c-tr-0-1009"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1760549225063,
+      "stop": 1760549225063
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1760549225063,
+      "stop": 1760549225063
+    }
+  ],
+  "links": [],
+  "start": 1760549064310,
+  "stop": 1760549225091
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "ea1bf412-6a48-4117-b0a6-6ea78cc76a06-tc-0-1004",
+  "name": "Yusha.Selenium.LoginTest.InValidPhoneNumberTest",
+  "children": [
+    "1c9476bf-9157-4d75-84ab-216531bf76e8-tr-0-1006"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1760548530745,
+      "stop": 1760548530745
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1760548530746,
+      "stop": 1760548530746
+    }
+  ],
+  "links": [],
+  "start": 1760548492926,
+  "stop": 1760548530805
+}

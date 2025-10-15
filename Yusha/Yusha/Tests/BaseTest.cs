@@ -1,11 +1,11 @@
-using System;
-using NUnit.Framework;
+using NUnit.Allure.Core;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 
 namespace Yusha
 {
+    
     internal class BaseTest
     {
         protected IWebDriver driver;          

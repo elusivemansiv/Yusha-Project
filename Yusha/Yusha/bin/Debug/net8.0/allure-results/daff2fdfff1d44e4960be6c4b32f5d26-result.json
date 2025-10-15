@@ -1,0 +1,82 @@
+{
+  "uuid": "e1e86489-250d-47ce-8d44-8ffbe7f6a4cb-tr-0-1006",
+  "historyId": "Yusha.Selenium.LoginTest.InValidPhoneNumberTest",
+  "fullName": "Yusha.Selenium.LoginTest.InValidPhoneNumberTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5J5HCF1"
+    },
+    {
+      "name": "package",
+      "value": "Yusha.Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "InValidPhoneNumberTest"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTest"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "suite",
+      "value": "Browser tests"
+    }
+  ],
+  "links": [
+    {
+      "name": "Website",
+      "url": "https://yusha.com.bd/",
+      "type": "link"
+    }
+  ],
+  "name": "InValidPhoneNumberTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.UnsupportedOperationException : target frame detached\n  (failed to check if window was closed: disconnected: Unable to receive message from renderer)\n  (Session info: chrome=141.0.7390.66)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)\r\n   at OpenQA.Selenium.Navigator.<>c__DisplayClass6_0.<<GoToUrl>b__0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at Yusha.BaseTest.Setup() in C:\\Users\\DELL\\OneDrive\\Desktop\\Mansib\\Yusha-Project\\Yusha\\Yusha\\Tests\\BaseTest.cs:line 22\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\nAs user I want to login to the wesbsite with invalid phone number",
+  "steps": [
+    {
+      "name": "InValidPhoneNumberTest skipped because of Setup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.UnsupportedOperationException : target frame detached\n  (failed to check if window was closed: disconnected: Unable to receive message from renderer)\n  (Session info: chrome=141.0.7390.66)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)\r\n   at OpenQA.Selenium.Navigator.<>c__DisplayClass6_0.<<GoToUrl>b__0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at Yusha.BaseTest.Setup() in C:\\Users\\DELL\\OneDrive\\Desktop\\Mansib\\Yusha-Project\\Yusha\\Yusha\\Tests\\BaseTest.cs:line 22\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ff1cbff7e25b4c6ba57d5a91fb2a06b3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1760548376499,
+      "stop": 1760548402943
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1760548376496,
+  "stop": 1760548402949
+}

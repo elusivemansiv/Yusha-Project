@@ -1,0 +1,67 @@
+{
+  "uuid": "9b676acf-0879-4d7e-9dca-4355bafb88e6-tr-0-1005",
+  "historyId": "Yusha.Selenium.LoginTest.NoPhoneNumberTest",
+  "fullName": "Yusha.Selenium.LoginTest.NoPhoneNumberTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5J5HCF1"
+    },
+    {
+      "name": "package",
+      "value": "Yusha.Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "NoPhoneNumberTest"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTest"
+    }
+  ],
+  "links": [],
+  "name": "NoPhoneNumberTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Error message text mismatch or not displayed.\r\n  Expected string length 48 but was 24. Strings differ at index 13.\r\n  Expected: \"Phone number must start with 01 and be 11 digits\"\r\n  But was:  \"Phone number is required\"\r\n  ------------------------^\r\n",
+    "trace": "   at Yusha.Selenium.LoginTest.NoPhoneNumberTest() in C:\\Users\\DELL\\OneDrive\\Desktop\\Mansib\\Yusha-Project\\Yusha\\Yusha\\Tests\\LoginTest.cs:line 65\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "NoPhoneNumberTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Error message text mismatch or not displayed.\r\n  Expected string length 48 but was 24. Strings differ at index 13.\r\n  Expected: \"Phone number must start with 01 and be 11 digits\"\r\n  But was:  \"Phone number is required\"\r\n  ------------------------^\r\n",
+        "trace": "   at Yusha.Selenium.LoginTest.NoPhoneNumberTest() in C:\\Users\\DELL\\OneDrive\\Desktop\\Mansib\\Yusha-Project\\Yusha\\Yusha\\Tests\\LoginTest.cs:line 65\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "adbc760448644c4ca354de43015dbcbb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1760545606919,
+      "stop": 1760545620225
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1760545606919,
+  "stop": 1760545620225
+}

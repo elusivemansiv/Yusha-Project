@@ -1,0 +1,79 @@
+{
+  "uuid": "1c9476bf-9157-4d75-84ab-216531bf76e8-tr-0-1006",
+  "historyId": "Yusha.Selenium.LoginTest.InValidPhoneNumberTest",
+  "fullName": "Yusha.Selenium.LoginTest.InValidPhoneNumberTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5J5HCF1"
+    },
+    {
+      "name": "package",
+      "value": "Yusha.Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "InValidPhoneNumberTest"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTest"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "suite",
+      "value": "Browser tests"
+    }
+  ],
+  "links": [
+    {
+      "name": "Website",
+      "url": "https://yusha.com.bd/",
+      "type": "link"
+    }
+  ],
+  "name": "InValidPhoneNumberTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "InValidPhoneNumberTest"
+  },
+  "stage": "finished",
+  "description": "As user I want to login to the wesbsite with invalid phone number",
+  "steps": [
+    {
+      "name": "InValidPhoneNumberTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "00047bc1cc244d7885770cb205f4bc4d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1760548492937,
+      "stop": 1760548530749
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1760548492936,
+  "stop": 1760548530754
+}

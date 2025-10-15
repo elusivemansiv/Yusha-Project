@@ -1,0 +1,79 @@
+{
+  "uuid": "834511fd-3f9d-43a0-ae56-06e99c097496-tr-0-1011",
+  "historyId": "Yusha.Selenium.SearchTest.SearchBagTest",
+  "fullName": "Yusha.Selenium.SearchTest.SearchBagTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5J5HCF1"
+    },
+    {
+      "name": "package",
+      "value": "Yusha.Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "SearchBagTest"
+    },
+    {
+      "name": "testClass",
+      "value": "SearchTest"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "suite",
+      "value": "Browser tests"
+    }
+  ],
+  "links": [
+    {
+      "name": "Website",
+      "url": "https://yusha.com.bd/",
+      "type": "link"
+    }
+  ],
+  "name": "SearchBagTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "SearchBagTest"
+  },
+  "stage": "finished",
+  "description": "As user I want to Search Bag product to the wesbsite with valid Data",
+  "steps": [
+    {
+      "name": "SearchBagTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "75b09f89d9d54cd296a7f566f68658f6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1760549415930,
+      "stop": 1760549445949
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1760549415929,
+  "stop": 1760549445954
+}

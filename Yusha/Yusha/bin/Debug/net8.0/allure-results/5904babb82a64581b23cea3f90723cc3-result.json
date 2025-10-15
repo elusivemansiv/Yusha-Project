@@ -1,0 +1,82 @@
+{
+  "uuid": "d09ba112-a23e-4f28-8935-1ace9376e0d1-tr-0-1007",
+  "historyId": "Yusha.Selenium.LoginTest.NoPhoneNumberTest",
+  "fullName": "Yusha.Selenium.LoginTest.NoPhoneNumberTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5J5HCF1"
+    },
+    {
+      "name": "package",
+      "value": "Yusha.Selenium"
+    },
+    {
+      "name": "testMethod",
+      "value": "NoPhoneNumberTest"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTest"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "suite",
+      "value": "Browser tests"
+    }
+  ],
+  "links": [
+    {
+      "name": "Website",
+      "url": "https://yusha.com.bd/",
+      "type": "link"
+    }
+  ],
+  "name": "NoPhoneNumberTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Error message text mismatch or not displayed.\r\n  Expected string length 48 but was 24. Strings differ at index 13.\r\n  Expected: \"Phone number must start with 01 and be 11 digits\"\r\n  But was:  \"Phone number is required\"\r\n  ------------------------^\r\n",
+    "trace": "   at Yusha.Selenium.LoginTest.NoPhoneNumberTest() in C:\\Users\\DELL\\OneDrive\\Desktop\\Mansib\\Yusha-Project\\Yusha\\Yusha\\Tests\\LoginTest.cs:line 79\r\n"
+  },
+  "stage": "finished",
+  "description": "As user I want to login to the wesbsite with no phone number",
+  "steps": [
+    {
+      "name": "NoPhoneNumberTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Error message text mismatch or not displayed.\r\n  Expected string length 48 but was 24. Strings differ at index 13.\r\n  Expected: \"Phone number must start with 01 and be 11 digits\"\r\n  But was:  \"Phone number is required\"\r\n  ------------------------^\r\n",
+        "trace": "   at Yusha.Selenium.LoginTest.NoPhoneNumberTest() in C:\\Users\\DELL\\OneDrive\\Desktop\\Mansib\\Yusha-Project\\Yusha\\Yusha\\Tests\\LoginTest.cs:line 79\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7a39ec24e3734304ad410f981bb985e2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1760548530911,
+      "stop": 1760548578570
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1760548530911,
+  "stop": 1760548578571
+}
